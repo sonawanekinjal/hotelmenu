@@ -1,5 +1,5 @@
 var menu1 = {title:"Idli sambar",
-                    img:"./assignments/Menu/assets/idli.jpg",
+                    img:"./assets/idli.jpg",
                     type:"breakfast",
                     des:"Healthy south indian breakfast with spongy light idli and flavoured soupy sambar."
             } 
@@ -9,32 +9,32 @@ var menu2 = {title: "Poha",
                     des:"Maharastrian dish Poha with flavours of lemon, coconut and coriander."
             }
 var menu3 = {title:"Misal pav",
-                    img:"./assignments/Menu/assets/misal.jpg",
+                    img:"./assets/misal.jpg",
                     type:"lunch",
                     des:"Maharashtrian famous dish of mothbeans flavourous curry and soft buns."
             } 
 var menu4 = {title: "Paneer masala with naan and pulav",
-                    img:"./assignments/Menu/assets/paneer.jpg",
+                    img:"./assets/paneer.jpg",
                     type:["lunch","dinner"],
                     des:"Fresh paneer masala curry with buttery naan and steamed hot rice."
             }
 var menu5 = {title:"Mango Milkshake",
-                     img:"./assignments/Menu/assets/mango.jpg",
+                     img:"./assets/mango.jpg",
                      type:"shakes",
                      des:"Mango flavored creamy milkshake.Mango flavored creamy milkshake."
             } 
 var menu6 = {title: "Chocolate Milkshake",
-                     img:"./assignments/Menu/assets/choco.jpg",
+                     img:"./assets/choco.jpg",
                      type:"shakes",
                      des:"Sweet chocolate flavoured milkshake with ice-cream."
             }
 var menu7 = {title:"Pav Bhaji",
-                     img:"./assignments/Menu/assets/pavbhaji.jpg",
+                     img:"./assets/pavbhaji.jpg",
                      type:"dinner",
                      des:"Flavourfull curry madeup of vegetables and spices with soft buns garnished with coriander, lemon and onion."
             } 
 var menu8 = {title: "Chhole Bhature",
-                     img:"./assignments/Menu/assets/chhole.jpg",
+                     img:"./assets/chhole.jpg",
                      type:"dinner",
                      des:"Flavourfull curry of cheakpeas madeup of spices with deep fried breads."
             }
