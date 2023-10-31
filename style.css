@@ -1,0 +1,94 @@
+.menu{
+  display:flex;
+  flex-direction: column;
+  padding:20px;
+}
+h1{
+  font-size:40px;
+  font-family:Arial, Helvetica, sans-serif;
+  color: rgb(2, 2, 63);
+  background-color:white;
+  margin: 40px;
+  padding:20px;
+  text-align:center;
+}
+form{
+  margin-left:350px;
+  padding:20px;
+  background-color:white;
+  display:inline-block;
+  text-align:center;
+}
+button { 
+  text-align:center;
+  margin:20px;
+  padding:8px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:15px;
+  color: gold;
+  background-color:white;
+  display:inline;
+  border-style:solid;
+  border-radius: 10px;
+  border-color: gold;
+  float:left;
+  cursor:pointer;
+}
+.food_des {
+  width:350px;
+  height:65px;
+  display:inline;
+  float: left;
+  z-index:1;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  overflow-wrap:break-word;
+  padding:2px;
+  margin:2px;
+}
+img{
+  border-style:solid;
+  border-radius: 10px;
+  border-color: rgb(198, 172, 102);
+  border-width: 4px;
+  height:200px;
+  width:225px;
+  float:left;
+  display:inline;
+  margin: 5px;
+  cursor:pointer;
+}
+h3{
+  display:inline;
+  margin-top:2px;
+  cursor:pointer;
+}
+h5{
+  color:rgb(131, 101, 24);
+  text-decoration: underline;
+  display:inline;
+  display:flex;
+  flex-direction: column;
+  margin-top: auto;
+  cursor:pointer;
+}
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  color:rgb(118, 118, 143);
+  box-sizing: 15%;
+  display: inline-block;
+  margin-bottom: 2px;
+}
+
+#breakfast {
+  display:none;
+}
+#lunch {
+  display: none;
+}
+#shakes {
+  display: none;
+}
+#dinner {
+  display: none;
+}
