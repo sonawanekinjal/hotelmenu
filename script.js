@@ -48,7 +48,6 @@ function onMenuClick(type){
     menu=allmenu[type];
     var value = `<div id=${menu.title}>
                 <img src=${menu.img}>
-                </div>
                 <div class="food_des">
                 <h3 ><b>${menu.title}</b></h3>
                 <h5>${menu.price}</h5>
@@ -58,7 +57,7 @@ function onMenuClick(type){
   }
 
 }
-menu.forEach(type => {
+allmenu.forEach(type => {
   document.getElementById(type).innerHTML= value;
 });
 // var value1 = `<div id="idli">
