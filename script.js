@@ -4,7 +4,7 @@ var menu1 = {title:"Idli sambar",
                     des:"Healthy south indian breakfast with spongy light idli and flavoured soupy sambar."
             } 
 var menu2 = {title: "Poha",
-                    img:"./assignments/Menu/assets/poha1.jpg",
+                    img:"./assets/poha1.jpg",
                     type:"breakfast",
                     des:"Maharastrian dish Poha with flavours of lemon, coconut and coriander."
             }
