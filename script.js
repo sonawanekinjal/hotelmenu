@@ -1,40 +1,40 @@
 var menu1 = {title:"Idli sambar",
-                    img:"./assets/idli.jpg",
+                    img:"./assignments/Menu/assets/idli.jpg",
                     type:"breakfast",
                     des:"Healthy south indian breakfast with spongy light idli and flavoured soupy sambar."
             } 
 var menu2 = {title: "Poha",
-                    img:"./assets/poha1.jpg",
+                    img:"./assignments/Menu/assets/poha1.jpg",
                     type:"breakfast",
                     des:"Maharastrian dish Poha with flavours of lemon, coconut and coriander."
             }
 var menu3 = {title:"Misal pav",
-                    img:"./assets/misal.jpg",
+                    img:"./assignments/Menu/assets/misal.jpg",
                     type:"lunch",
                     des:"Maharashtrian famous dish of mothbeans flavourous curry and soft buns."
             } 
 var menu4 = {title: "Paneer masala with naan and pulav",
-                    img:"./assets/paneer.jpg",
+                    img:"./assignments/Menu/assets/paneer.jpg",
                     type:["lunch","dinner"],
                     des:"Fresh paneer masala curry with buttery naan and steamed hot rice."
             }
 var menu5 = {title:"Mango Milkshake",
-                     img:"./assets/mango.jpg",
+                     img:"./assignments/Menu/assets/mango.jpg",
                      type:"shakes",
                      des:"Mango flavored creamy milkshake.Mango flavored creamy milkshake."
             } 
 var menu6 = {title: "Chocolate Milkshake",
-                     img:"./assets/choco.jpg",
+                     img:"./assignments/Menu/assets/choco.jpg",
                      type:"shakes",
                      des:"Sweet chocolate flavoured milkshake with ice-cream."
             }
 var menu7 = {title:"Pav Bhaji",
-                     img:"./assets/pavbhaji.jpg",
+                     img:"./assignments/Menu/assets/pavbhaji.jpg",
                      type:"dinner",
                      des:"Flavourfull curry madeup of vegetables and spices with soft buns garnished with coriander, lemon and onion."
             } 
 var menu8 = {title: "Chhole Bhature",
-                     img:"./assets/chhole.jpg",
+                     img:"./assignments/Menu/assets/chhole.jpg",
                      type:"dinner",
                      des:"Flavourfull curry of cheakpeas madeup of spices with deep fried breads."
             }
