@@ -65,6 +65,7 @@ function onMenuClick(type){
                 menu.push(allmenu)
         }
         else{
+                allmenu.filter(value)
         for (let iter=0 ; iter<allmenu.length ; ietr++)
         {
                 menu.push(allmenu[iter])
