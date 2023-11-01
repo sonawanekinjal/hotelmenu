@@ -42,10 +42,10 @@ var allmenu = [{title:"Idli sambar",
 function onMenuClick(type){
   let menu=[]
   if (type=='all'){
-    menu=allmenu;
+    menu.push(allmenu)
   }  
   else{
-    menu=allmenu[type];
+    menu.push(allmenu[type])
     var value = `<div id=${menu.title}>
                 <img src=${menu.img}>
                 <div class="food_des">
@@ -54,8 +54,8 @@ function onMenuClick(type){
                 <hr style="border:1px dotted rgb(118, 118, 143)">
                 <p>${menu.des}</p>
                 </div>`
-  }
-}
-allmenu.forEach(type => {
+ }
+ allmenu.forEach(type => {
         document.getElementById(type).innerHTML = value;
 }); 
+}
