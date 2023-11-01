@@ -43,7 +43,7 @@ function onMenuClick(type){
   let menu=[]
   if (type=='all'){
     menu=allmenu;
-  }
+  }  
   else{
     menu=allmenu[type];
     var value = `<div id=${menu.title}>
@@ -55,8 +55,7 @@ function onMenuClick(type){
                 <p>${menu.des}</p>
                 </div>`
   }
-
+  allmenu.forEach(type => {
+        document.getElementById(type).innerHTML= value;
+      });
 }
-allmenu.forEach(type => {
-  document.getElementById(type).innerHTML= value;
-});
