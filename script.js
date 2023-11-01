@@ -39,7 +39,7 @@ var allmenu = [{title:"Idli sambar",
                      type:"dinner",
                      des:"Flavourfull curry of cheakpeas madeup of spices with deep fried breads."
             }]
-allmenu.forEach(type=>{
+function onMenuClick(type){
   let menu=[]
   if (type=='all'){
     menu=allmenu;
@@ -55,7 +55,7 @@ allmenu.forEach(type=>{
                 <p>${menu.des}</p>
                 </div>`
   }
-});
-function onMenuClick(type) {
-        document.getElementById(type).innerHTML = value;
 }
+allmenu.forEach(type => {
+        document.getElementById(type).innerHTML = value;
+});
