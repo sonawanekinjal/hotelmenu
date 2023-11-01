@@ -58,4 +58,4 @@ function onMenuClick(type){
 }
 allmenu.forEach(type => {
         document.getElementById(type).innerHTML = value;
-});
+}); 
