@@ -78,6 +78,6 @@ function onMenuClick(type){
                              <p>${allmenu[iter].des}</p>
                              </div>`
         }
+        document.getElementById(type).innerHTML = result;
 }
-document.getElementById(type).innerHTML = result;
 }
