@@ -65,7 +65,7 @@ function onMenuClick(type){
                 menu.push(allmenu)
         }
         else{
-                allmenu.filter(value)
+        var result = allmenu.filter(onMenuClick);
         for (let iter=0 ; iter<allmenu.length ; ietr++)
         {
                 menu.push(allmenu[iter])
@@ -78,6 +78,6 @@ function onMenuClick(type){
                              <p>${allmenu[iter].des}</p>
                              </div>`
         }
-        console.log(value)
+        console.log(result);
 }
 }
