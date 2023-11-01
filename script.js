@@ -39,23 +39,44 @@ var allmenu = [{title:"Idli sambar",
                      type:"dinner",
                      des:"Flavourfull curry of cheakpeas madeup of spices with deep fried breads."
             }]
+// function onMenuClick(type){
+//   let menu=[]
+//   if (type=='all'){
+//     menu.push(allmenu)
+//   }  
+//   else{
+//     menu.push(allmenu[type])
+//     var value = `<div id=${menu.title}>
+//                 <img src=${menu.img}>
+//                 <div class="food_des">
+//                 <h3 ><b>${menu.title}</b></h3>
+//                 <h5>${menu.price}</h5>
+//                 <hr style="border:1px dotted rgb(118, 118, 143)">
+//                 <p>${menu.des}</p>
+//                 </div>`
+//  }
+//  allmenu.forEach(type => {
+//         document.getElementById(type).innerHTML = value;
+// }); 
+// }
 function onMenuClick(type){
-  let menu=[]
-  if (type=='all'){
-    menu.push(allmenu)
-  }  
-  else{
-    menu.push(allmenu[type])
-    var value = `<div id=${menu.title}>
-                <img src=${menu.img}>
-                <div class="food_des">
-                <h3 ><b>${menu.title}</b></h3>
-                <h5>${menu.price}</h5>
-                <hr style="border:1px dotted rgb(118, 118, 143)">
-                <p>${menu.des}</p>
-                </div>`
- }
- allmenu.forEach(type => {
-        document.getElementById(type).innerHTML = value;
-}); 
+        let menu = []
+        if (type=="all"){
+                menu.push(allmenu)
+        }
+        else{
+        for (let iter=0 ; iter<allmenu.length ; ietr++)
+        {
+                menu.push(allmenu[iter])
+                var value = `<div id=${allmenu[iter].title}>
+                             <img src=${allmenu[iter].img}>
+                             <div class="food_des">
+                             <h3 ><b>${allmenu[iter].title}</b></h3>
+                             <h5>${allmenu[iter].price}</h5>
+                             <hr style="border:1px dotted rgb(118, 118, 143)">
+                             <p>${allmenu[iter].des}</p>
+                             </div>`
+        }
+        console.log(value)
+}
 }
