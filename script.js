@@ -78,6 +78,6 @@ function onMenuClick(type){
                              <p>${allmenu[iter].des}</p>
                              </div>`
         }
-        allmenu.forEach(type=>{console.log(result);});
+        allmenu.forEach(type=>{console.log(value);});
 }
 }
