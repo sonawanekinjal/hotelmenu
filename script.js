@@ -1,39 +1,39 @@
-var allmenu = [{title:"Idli sambar",
+var allmenu = [{title:"idli-sambar",
                     price:"Rs100",
                     img:"./assets/idli.jpg",
                     type:"breakfast",
                     des:"Healthy south indian breakfast with spongy light idli and flavoured soupy sambar."
-            } , {title: "Poha",
+            } , {title: "poha",
                     price:"Rs100",
                     img:"./assets/poha1.jpg",
                     type:"breakfast",
                     des:"Maharastrian dish Poha with flavours of lemon, coconut and coriander."
-            }, {title:"Misal pav",
+            }, {title:"misal-pav",
                     price:"Rs100",
                     img:"./assets/misal.jpg",
                     type:"lunch",
                     des:"Maharashtrian famous dish of mothbeans flavourous curry and soft buns."
-            } , {title: "Paneer masala with naan and pulav",
+            } , {title: "Paneer-masala",
                     price:"Rs100",
                     img:"./assets/paneer.jpg",
                     type:["lunch","dinner"],
                     des:"Fresh paneer masala curry with buttery naan and steamed hot rice."
-            }, {title:"Mango Milkshake",
+            }, {title:"mango",
                       price:"Rs100",
                      img:"./assets/mango.jpg",
                      type:"shakes",
                      des:"Mango flavored creamy milkshake.Mango flavored creamy milkshake."
-            } , {title: "Chocolate Milkshake",
+            } , {title: "chocolate",
                      price:"Rs100",
                      img:"./assets/choco.jpg",
                      type:"shakes",
                      des:"Sweet chocolate flavoured milkshake with ice-cream."
-            }, {title:"Pav Bhaji",
+            }, {title:"pav-bhaji",
                     price:"Rs100",
                      img:"./assets/pavbhaji.jpg",
                      type:"dinner",
                      des:"Flavourfull curry madeup of vegetables and spices with soft buns garnished with coriander, lemon and onion."
-            } , {title: "Chhole Bhature",
+            } , {title: "chhole-bhature",
                       price:"Rs100",
                      img:"./assets/chhole.jpg",
                      type:"dinner",
@@ -65,7 +65,7 @@ function onMenuClick(type){
                 menu.push(allmenu)
         }
         else{
-        var result = allmenu.filter(Menu_type(type));
+        var result = allmenu.filter(type);
         for (let iter=0 ; iter<allmenu.length ; iter++)
         {
                 menu.push(allmenu[iter])
@@ -81,17 +81,17 @@ function onMenuClick(type){
         allmenu.forEach(type=>{console.log(value);});
         }
 }
-function Menu_type(type){
-        if (type=='breakfast'){
-                menu.push(allmenu[0])
-        }
-        else if (type=='lunch'){
-                menu.push(allmenu[1])
-        }
-        else if (type=='shakes'){
-                menu.push(allmenu[2])
-        }
-        else if (type=='dinner'){
-                menu.push(allmenu[3])
-        }
-}
+// function Menu_type(type){
+//         if (type=='breakfast'){
+//                 menu.push(allmenu[0])
+//         }
+//         else if (type=='lunch'){
+//                 menu.push(allmenu[1])
+//         }
+//         else if (type=='shakes'){
+//                 menu.push(allmenu[2])
+//         }
+//         else if (type=='dinner'){
+//                 menu.push(allmenu[3])
+//         }
+// }
