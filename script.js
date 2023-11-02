@@ -65,7 +65,7 @@ function onMenuClick(type){
                 menu.push(allmenu)
         }
         else{
-        var result = allmenu.filter(Menu_type);
+        var result = allmenu.filter(Menu_type(type));
         for (let iter=0 ; iter<allmenu.length ; iter++)
         {
                 menu.push(allmenu[iter])
@@ -83,15 +83,15 @@ function onMenuClick(type){
 }
 function Menu_type(type){
         if (type=='breakfast'){
-                menu.push(allmenu[iter])
+                menu.push(allmenu[0])
         }
         else if (type=='lunch'){
-                menu.push(allmenu[iter])
+                menu.push(allmenu[1])
         }
         else if (type=='shakes'){
-                menu.push(allmenu[iter])
+                menu.push(allmenu[2])
         }
         else if (type=='dinner'){
-                menu.push(allmenu[iter])
+                menu.push(allmenu[3])
         }
 }
