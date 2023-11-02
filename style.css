@@ -81,14 +81,14 @@ p{
 }
 
 #breakfast {
-  display:none;
+  display:flex;
 }
 #lunch {
-  display: none;
+  display: flex;
 }
 #shakes {
-  display: none;
+  display: flex;
 }
 #dinner {
-  display: none;
+  display: flex;
 }
