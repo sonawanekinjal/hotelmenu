@@ -85,13 +85,13 @@ function Menu_type(type){
         if (type=='breakfast'){
                 menu.push(allmenu[iter])
         }
-        if (type=='lunch'){
+        else if (type=='lunch'){
                 menu.push(allmenu[iter])
         }
-        if (type=='shakes'){
+        else if (type=='shakes'){
                 menu.push(allmenu[iter])
         }
-        if (type=='dinner'){
+        else if (type=='dinner'){
                 menu.push(allmenu[iter])
         }
 }
