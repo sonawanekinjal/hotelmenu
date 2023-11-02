@@ -65,8 +65,8 @@ function onMenuClick(type){
                 menu.push(allmenu)
         }
         else{
-        var result = allmenu.filter(onMenuClick);
-        for (let iter=0 ; iter<allmenu.length ; ietr++)
+        var result = allmenu.filter(Menu_type);
+        for (let iter=0 ; iter<allmenu.length ; iter++)
         {
                 menu.push(allmenu[iter])
                 var value = `<div id=${allmenu[iter].title}>
@@ -79,5 +79,19 @@ function onMenuClick(type){
                              </div>`
         }
         allmenu.forEach(type=>{console.log(value);});
+        }
 }
+function Menu_type(type){
+        if (type=='breakfast'){
+                menu.push(allmenu[iter])
+        }
+        if (type=='lunch'){
+                menu.push(allmenu[iter])
+        }
+        if (type=='shakes'){
+                menu.push(allmenu[iter])
+        }
+        if (type=='dinner'){
+                menu.push(allmenu[iter])
+        }
 }
