@@ -80,15 +80,8 @@ p{
   margin-bottom: 2px;
 }
 
-#breakfast {
-  display:flex;
-}
-#lunch {
-  display: flex;
-}
-#shakes {
-  display: flex;
-}
-#dinner {
-  display: flex;
+#demo{
+  flex-direction:column;
+  float:left;
+  display:inline;
 }
