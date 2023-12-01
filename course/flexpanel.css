@@ -1,61 +1,63 @@
-body{
+body {
   margin: 0;
-  font-family: 'Arial',sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items:  center;
+  font-family: "Arial", sans-serif;
   height: 100vh;
 }
-
-.panels{
-  flex: 1;
+.panels {
   display: flex;
   justify-content: center;
-  align-items:  center;
-  background: #6B0F9C;
+  align-items: center;
+  background: #6b0f9c;
   color: white;
   cursor: pointer;
-  transition: flex 0.7s ease-in-out;
+  transition: flex 1s ease-in-out;
+  height: 100%;
 }
-
-.panels p{
+.panels p {
   font-size: 20px;
-  text-align:center;
+  text-align: center;
   align-items: center;
   vertical-align: middle;
 }
 
-.open{
-  flex: 5;
+.panel{
+  flex: 1;
+  height: 100%;
 }
-
-.panel1{
+.panel1 {
   background-image: url(../assets/panel1.jpg);
   background-repeat: no-repeat;
-  height: 595px;
-  width:250px;
 }
-.panel2{
+.panel2 {
   background-image: url(../assets/panel2.jpg);
-  background-repeat: no-repeat;
-  height: 595px;
-  width:250px;
 }
-.panel3{
+.panel3 {
   background-image: url(../assets/panel3.jpg);
   background-repeat: no-repeat;
-  height: 595px;
-  width:250px;
 }
-.panel4{
+.panel4 {
   background-image: url(../assets/panel4.jpg);
-  background-repeat: no-repeat;
-  height: 595px;
-  width:250px;
 }
-.panel5{
+.panel5 {
   background-image: url(../assets/panel5.jpg);
   background-repeat: no-repeat;
-  height: 595px;
-  width:250px;
-} 
+}
+
+.panel1:hover {
+  color: green;
+}
+.panel2:hover {
+  color: red;
+}
+.panel3:hover {
+  color: blue;
+}
+.panel4:hover {
+  color: darkorchid;
+}
+.panel5:hover {
+  color: darkorange;
+}
+.open {
+  flex: 5;
+}
